@@ -5,10 +5,68 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.menuLinks{
-
+body{
+    background-color: black;
 }
 
-.btn{
+.container{
     
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%; 
+    padding-right: 8%;
+}
+
+nav h2{
+    color: white;
+    cursor: pointer;
+}
+
+/*hover nos links e botões, aplicar mudança de escala tbm*/
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.btn1, .btn2{
+    font-weight: bold;
+    background-color: rgb(255, 0, 81);
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    transition: transform .4s;
+    border-radius: 150px;
+}
+
+.btn1:hover{
+    transform: scale(1.2);
+    background-color: purple;
+}
+
+.btn2:hover{
+    transform: scale(1.2);
+    background-color: blue;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 0, 81);
+    transform: scale(1.5);
+}
+
+span{
+    color: rgb(255, 0, 81);
 }
