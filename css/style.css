@@ -43,6 +43,7 @@ nav ul li a{
     font-weight: bold;
     background-color: rgb(255, 0, 81);
     padding: 10px 25px;
+    margin-right: 10px;
     color: white;
     text-decoration: none;
     transition: transform .4s;
@@ -50,7 +51,7 @@ nav ul li a{
 }
 
 .btn1:hover{
-    transform: scale(1.2);
+    transform: scale(1.2);/*Não está funcionando*/
     background-color: purple;
 }
 
@@ -89,11 +90,39 @@ span{
 
 .txtSobre h1{
     font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.txtSobre h4{
+    font-weight: lighter;
+}
+
+.txtSobre h3{
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.txtSobre h2{
     margin-bottom: 20px;
 }
 
-.txtSobre h4    {
-    font-weight: lighter;
+.txtSobre button{
+    font-weight: bold;
+    font-size: 17px;
+    background-color: rgb(255, 0, 81);
+    padding: 15px 25px;
+    margin-top: 20px;
+    border-radius: 150px;
+    transition: transform .4s;
+}
+
+.txtSobre button:hover{
+    transform: scale(1.2);
+}
+
+.txtSobre button a{
+    color: white;
+    text-decoration: none;
 }
 
 .sobre img{
