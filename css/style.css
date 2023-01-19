@@ -62,7 +62,7 @@ nav ul li a{
 
 nav ul li a:hover{
     color: rgb(255, 0, 81);
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 span{
@@ -118,6 +118,7 @@ span{
 
 .txtSobre button:hover{
     transform: scale(1.2);
+    box-shadow: 8px 8px 22px rgb(206, 1, 66);
 }
 
 .txtSobre button a{

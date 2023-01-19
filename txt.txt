@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%; 
+    padding-right: 8%;
+}
+
+nav h2{
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+/*hover nos links e botões, aplicar mudança de escala tbm*/
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.btn1, .btn2{
+    font-weight: bold;
+    background-color: rgb(255, 0, 81);
+    padding: 10px 25px;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: transform .4s;
+    border-radius: 150px;
+}
+
+.btn1:hover{
+    transform: scale(1.2);
+    background-color: purple;
+}
+
+.btn2:hover{
+    transform: scale(1.2);
+    background-color: blue;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 0, 81);
+    transform: scale(1.5);
+}
+
+span{
+    color: rgb(255, 0, 81);
+}
+
+.bgColorSobre{
+    width: 100%;
+    padding: 100px 100px;
+    background-color: rgb(14, 14, 14);
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 10000;
+}
+
+.txtSobre{
+    width: 400px;
+    padding-left: 0px;
+    color: aliceblue;
+}
+
+.txtSobre h1{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.txtSobre h4{
+    font-weight: lighter;
+}
+
+.txtSobre h3{
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.txtSobre h2{
+    margin-bottom: 20px;
+}
+
+.txtSobre button{
+    font-weight: bold;
+    font-size: 17px;
+    background-color: rgb(255, 0, 81);
+    padding: 15px 25px;
+    margin-top: 20px;
+    border-radius: 150px;
+}
+
+.txtSobre button a{
+    color: white;
+    text-decoration: none;
+}
+
+.sobre img{
+    width: 350px;
+    height: auto;
+}
