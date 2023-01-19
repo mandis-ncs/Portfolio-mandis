@@ -5,12 +5,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
+.bg{
     background-color: black;
-}
-
-.container{
-    
 }
 
 nav{
@@ -25,6 +21,7 @@ nav{
 nav h2{
     color: white;
     cursor: pointer;
+    font-size: 30px;
 }
 
 /*hover nos links e botões, aplicar mudança de escala tbm*/
@@ -69,4 +66,37 @@ nav ul li a:hover{
 
 span{
     color: rgb(255, 0, 81);
+}
+
+.bgColorSobre{
+    width: 100%;
+    padding: 100px 100px;
+    background-color: rgb(14, 14, 14);
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 10000;
+}
+
+.txtSobre{
+    width: 400px;
+    padding-left: 0px;
+    color: aliceblue;
+}
+
+.txtSobre h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.txtSobre h4    {
+    font-weight: lighter;
+}
+
+.sobre img{
+    width: 350px;
+    height: auto;
 }
